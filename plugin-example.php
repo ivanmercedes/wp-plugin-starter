@@ -18,23 +18,20 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+define('PLUGIN_NAME_VERSION', '1.0.0' );
 define('PLUGIN_NAME_PATH', plugin_dir_path(__FILE__));
 
 // API REST
 require_once PLUGIN_NAME_PATH.'/includes/api/api-example.php';
  
-
 // Shortcode
 require_once PLUGIN_NAME_PATH.'/public/shortcode/example.php';
  
-
-
 function example_plugin_activate(){
      // code 
 }
 
 register_activation_hook(__FILE__, 'example_plugin_activate');
-
 
 function example_plugin_deactivate(){
   // code 
