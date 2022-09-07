@@ -13,6 +13,11 @@
  * Text Domain:       example
 */
 
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
 define('PLUGIN_NAME_PATH', plugin_dir_path(__FILE__));
 
 // API REST
