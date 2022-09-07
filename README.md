@@ -6,6 +6,9 @@ Estés repositorio contiene el código base para agilizar el desarrollo de nuevo
 
 ```ASCII
 admin/
+├─ css/
+├─ js/
+├─ partials/
 includes/
 ├─ api/
 public/
